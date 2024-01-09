@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+#img{
+    margin-bottom: 30px;
+    width: 100px;
+    height: 100px;
+}
+#btn{
+    width: 100px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#btn:active{
+    background-color: brown;
+    color: white;
+}

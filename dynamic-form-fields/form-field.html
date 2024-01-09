@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">Dynamic Form Fields</h2>
+        <div id="options">
+            <input type="text" id="name" placeholder="Name" class="input-box">
+        <input type="email" id="mail" placeholder="Email" class="input-box">
+        <input type="text" id="another-field" placeholder="Another Field" class="input-box">
+
+        </div>
+        
+        <div class="buttons">
+            <button id="add-btn" onclick="addAnotherField()">ADD</button>
+            <button id="remove-btn">REMOVE</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
